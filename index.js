@@ -12,10 +12,17 @@ function ddos(webiste) {
   console.log(`Sent 64 Packets from ${proxy} to https://${webiste}`)
 }
 
-while(true) {
+ddosIsTrue = false;
+
+if(ddosIsTrue == false) {
 console.log("ddosing the improster!!!!!!!!!")
+  ddosIsTrue = true;
 }
 
+if(ddosIsTrue = true) {
+    console.warn("ddos omg")
+} 
+ 
 setInterval(ddos);
 
 process.on('SIGINT', function() {

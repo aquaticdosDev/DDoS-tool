@@ -12,6 +12,10 @@ function ddos(webiste) {
   console.log(`Sent 64 Packets from ${proxy} to https://${webiste}`)
 }
 
+while(true) {
+console.log("ddosing the improster!!!!!!!!!")
+}
+
 setInterval(ddos);
 
 process.on('SIGINT', function() {
